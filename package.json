@@ -1,0 +1,37 @@
+{
+  "name": "@ethomson/setup-gitversion",
+  "version": "0.0.0",
+  "description": "Installs the GitVersion semantic versioning utility",
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethomson/setup-gitversion.git"
+  },
+  "keywords": [
+    "actions",
+    "github",
+    "gitversion",
+    "semantic versioning"
+  ],
+  "author": "Edward Thomson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ethomson/setup-gitversion/issues"
+  },
+  "homepage": "https://github.com/ethomson/setup-gitversion#readme",
+  "devDependencies": {
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "@actions/core": "^1.0.0",
+    "@actions/io": "^1.0.0",
+    "@actions/exec": "^1.0.0",
+    "@actions/github": "^1.0.0",
+    "@actions/tool-cache": "^1.0.0",
+    "@types/node": "^12.6.1"
+  }
+}

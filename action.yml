@@ -1,0 +1,9 @@
+name: 'Setup GitVersion'
+description: 'Installs the GitVersion semantic versioning utility'
+author: 'Edward Thomson'
+runs:
+  using: 'node12'
+  main: 'lib/main.js'
+branding:
+  icon: 'play'
+  color: 'blue'
